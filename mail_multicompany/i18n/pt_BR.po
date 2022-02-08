@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mail_multicompany
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: mail_multicompany
+#: model:ir.model.fields,field_description:mail_multicompany.field_ir_mail_server__company_id
+#: model:ir.model.fields,field_description:mail_multicompany.field_mail_mail__company_id
+#: model:ir.model.fields,field_description:mail_multicompany.field_mail_message__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: mail_multicompany
+#: model:ir.model.fields,field_description:mail_multicompany.field_ir_mail_server__display_name
+#: model:ir.model.fields,field_description:mail_multicompany.field_mail_message__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: mail_multicompany
+#: model:ir.model.fields,field_description:mail_multicompany.field_ir_mail_server__id
+#: model:ir.model.fields,field_description:mail_multicompany.field_mail_message__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mail_multicompany
+#: model:ir.model.fields,field_description:mail_multicompany.field_ir_mail_server____last_update
+#: model:ir.model.fields,field_description:mail_multicompany.field_mail_message____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: mail_multicompany
+#: model:ir.model,name:mail_multicompany.model_ir_mail_server
+msgid "Mail Server"
+msgstr "Servidor de E-mail"
+
+#. module: mail_multicompany
+#: model:ir.model,name:mail_multicompany.model_mail_message
+msgid "Message"
+msgstr "Mensagem"
