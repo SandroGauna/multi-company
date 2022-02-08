@@ -1,0 +1,104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* intercompany_shared_contact
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: intercompany_shared_contact
+#: model:ir.model,name:intercompany_shared_contact.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: intercompany_shared_contact
+#: model:ir.model,name:intercompany_shared_contact.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_company__display_name
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_partner__display_name
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_users__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,help:intercompany_shared_contact.field_res_partner__res_company_id
+#: model:ir.model.fields,help:intercompany_shared_contact.field_res_users__res_company_id
+#, fuzzy
+msgid "Effectively a One2one field to represent the corresponding res.company"
+msgstr ""
+"Efetivamente um campo One2one para representar o res.company correspondente"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,help:intercompany_shared_contact.field_res_partner__origin_company_id
+#: model:ir.model.fields,help:intercompany_shared_contact.field_res_users__origin_company_id
+#, fuzzy
+msgid ""
+"Hack field to keep the information of the 'real' company_id. That way, we "
+"can share the contact by setting company_id to null, without losing any "
+"information. If null, the contact is not shared."
+msgstr ""
+"Hackeamento campo para manter a informação do company_id 'real'. Dessa "
+"forma, podemos compartilhar o contato definindo company_id nulas, sem perder "
+"nenhuma informação. Se for nulo, o contato não é compartilhado."
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_company__id
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_partner__id
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_users__id
+msgid "ID"
+msgstr "ID"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_company____last_update
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_partner____last_update
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_users____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_partner__origin_company_id
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_users__origin_company_id
+#, fuzzy
+msgid "Origin Company"
+msgstr "Empresa de Origem"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_partner__res_company_id
+#: model:ir.model.fields,field_description:intercompany_shared_contact.field_res_users__res_company_id
+#, fuzzy
+msgid "Res Company"
+msgstr "Empresa de Res"
+
+#. module: intercompany_shared_contact
+#: model:ir.model.constraint,message:intercompany_shared_contact.constraint_res_company_partner_uniq
+#, fuzzy
+msgid "The company partner_id must be unique !"
+msgstr "A empresa partner_id deve ser única!"
+
+#. module: intercompany_shared_contact
+#: model:ir.model,name:intercompany_shared_contact.model_res_users
+msgid "Users"
+msgstr "Usuários"
+
+#. module: intercompany_shared_contact
+#: code:addons/intercompany_shared_contact/models/res_partner.py:0
+#, fuzzy, python-format
+msgid ""
+"You do not have the right to modify the field: %s for an intercompany contact"
+msgstr ""
+"Você não tem o direito de modificar o campo: %s para um contato "
+"intercompanhado"
