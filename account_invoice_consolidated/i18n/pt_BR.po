@@ -1,0 +1,751 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_consolidated
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "00"
+msgstr "00"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+#, fuzzy
+msgid "<span string=\"-\" class=\"oe_inline\"> To </span>"
+msgstr "<span string=\"-\" class=\"oe_inline\"> Para </span>"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Account Number:"
+msgstr "Número da Conta:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Account:"
+msgstr "Conta:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_needaction
+msgid "Action Needed"
+msgstr "Ação Necessária"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_ids
+msgid "Activities"
+msgstr "Atividades"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoração de atividade excepcional "
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_state
+msgid "Activity State"
+msgstr "Estado da Atividade"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícone do Tipo de Atividade"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/models/account_invoice_consolidated.py:0
+#, fuzzy, python-format
+msgid "Add some invoices to proceed further."
+msgstr "Adicione algumas faturas para prosseguir."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Address Changes or Comments:"
+msgstr "Alterações de endereço ou comentários:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__amount_currency
+msgid "Amount Currency"
+msgstr "Moeda"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__residual
+msgid "Amount Due"
+msgstr "Valor Devido"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Amount Due:"
+msgstr "Valor Atrasado:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__amount_tax
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Amount Tax"
+msgstr "Montante de Imposto"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__amount_total
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Amount Total"
+msgstr "Montante Total"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__amount_untaxed
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Amount Untaxed"
+msgstr "Montante sem Imposto"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contagem de Anexos"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Bill To:"
+msgstr "Faturar Para:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "CONTACT US:"
+msgstr ""
+"Não é permitido alterar o número de IVA quando as faturas foram emitidas "
+"para a sua conta. Entre em contato conosco diretamente para esta operação."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Call us at"
+msgstr "Ligue para"
+
+#. module: account_invoice_consolidated
+#: model:ir.model,name:account_invoice_consolidated.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__company_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_search
+msgid "Company"
+msgstr "Empresa"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Company:"
+msgstr "Empresa:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company__cons_invoice_text
+#, fuzzy
+msgid "Cons Invoice Text"
+msgstr "Texto da Fatura dos Contras"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+msgid "Consolidate"
+msgstr "Consolidar"
+
+#. module: account_invoice_consolidated
+#: model:ir.actions.act_window,name:account_invoice_consolidated.account_invoice_consolidated_action
+#: model:ir.ui.menu,name:account_invoice_consolidated.account_invoice_consolidated_menu
+#, fuzzy
+msgid "Consolidate Invoices"
+msgstr "Consolidar faturas"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move_line__consolidated_by_id
+#, fuzzy
+msgid "Consolidated By"
+msgstr "Consolidado por"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_bank_statement_line__consolidated_by_id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move__consolidated_by_id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_payment__consolidated_by_id
+#, fuzzy
+msgid "Consolidated In"
+msgstr "Consolidado em"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__invoice_id
+#, fuzzy
+msgid "Consolidated Invoice"
+msgstr "Nota Fiscal Consolidada"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/models/account_invoice_consolidated.py:0
+#, fuzzy, python-format
+msgid "Consolidated Invoice Number must be unique!"
+msgstr "Número de fatura consolidada deve ser único!"
+
+#. module: account_invoice_consolidated
+#: model:ir.actions.report,name:account_invoice_consolidated.report_consolidated_inv
+#, fuzzy
+msgid "Consolidated Invoice Report"
+msgstr "Relatório de Faturas Consolidadas"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.view_partner_form
+#, fuzzy
+msgid "Consolidated Invoices"
+msgstr "Notas fiscais consolidadas"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_payment__consolidation_id
+msgid "Consolidation"
+msgstr "Consolidação"
+
+#. module: account_invoice_consolidated
+#: model:ir.model,name:account_invoice_consolidated.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Contact us at"
+msgstr ""
+"Não é permitido alterar o número de IVA quando as faturas foram emitidas "
+"para a sua conta. Entre em contato conosco diretamente para esta operação."
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Customer Name:"
+msgstr "Nome do Cliente:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__date_from
+msgid "Date From"
+msgstr "Data Inicial"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__date_to
+msgid "Date To"
+msgstr "Data para"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Description:"
+msgstr "Descrição:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__display_name
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_payment__display_name
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Mostrar  Nome"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Do you have a billing question?"
+msgstr "Você tem uma pergunta de faturamento?"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields.selection,name:account_invoice_consolidated.selection__account_invoice_consolidated__state__done
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_search
+msgid "Done"
+msgstr "Concluído"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields.selection,name:account_invoice_consolidated.selection__account_invoice_consolidated__state__draft
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_search
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/models/account_invoice_consolidated.py:0
+#, fuzzy, python-format
+msgid ""
+"Draft Consolidated Invoice exists for selected Customer/Date Range.\n"
+" Please add the invoice there."
+msgstr ""
+"A nota fiscal consolidada do rascunho existe para o intervalo de clientes/"
+"datas selecionados.\n"
+" Por favor, adicione a fatura lá."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Due Date:"
+msgstr "Data de Vencimento:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company__due_from_account_id
+#, fuzzy
+msgid "Due From"
+msgstr "Devido a"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company__due_fromto_payment_journal_id
+#, fuzzy
+msgid "Due From/Due To Journal"
+msgstr "Devido a/devido ao diário"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company__due_to_account_id
+#, fuzzy
+msgid "Due To"
+msgstr "A vencer"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+msgid "Duration"
+msgstr "Duração"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/models/account_invoice_consolidated.py:0
+#, fuzzy, python-format
+msgid "End Date should be greater than Start Date!"
+msgstr "A data de término deve ser maior que a data de início!"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canais)"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Parceiros)"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Ícone da fonte, por exemplo fa-tasks"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Freight"
+msgstr "CUSTO, SEGURO E FRETE"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+#, fuzzy
+msgid "Get Invoices"
+msgstr "Obter faturas"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move__id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_payment__id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company__id
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_exception_icon
+msgid "Icon"
+msgstr "Ícone"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ícone para indicar uma atividade excepcional"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_needaction
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Se selecionado, novas mensagens requerem sua atenção."
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_has_error
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se selecionado, algumas mensagens tem um erro de entrega."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.inherit_res_company_form
+#, fuzzy
+msgid "Intercompany Payment Configuration"
+msgstr "Configuração de pagamento intercompanhia"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/models/account_invoice_consolidated.py:0
+#, fuzzy, python-format
+msgid "Intercompany Payment Configuration is missing for %s."
+msgstr "A configuração de pagamento intercompanhia está faltando para %s."
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__invoice_ids
+#: model:ir.model.fields.selection,name:account_invoice_consolidated.selection__account_invoice_consolidated__state__invoice
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Invoice Amount:"
+msgstr "Valor da fatura:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model,name:account_invoice_consolidated.model_account_invoice_consolidated
+#, fuzzy
+msgid "Invoice Consolidation"
+msgstr "Consolidação da fatura"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Invoice Date:"
+msgstr "Data da Fatura:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__invoice_line_ids
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+#, fuzzy
+msgid "Invoice Line Ids"
+msgstr "Ids da linha fatura"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Invoice Number:"
+msgstr "Número do Recibo:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+msgid "Invoices"
+msgstr "Faturas"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_is_follower
+msgid "Is Follower"
+msgstr "É Seguidor"
+
+#. module: account_invoice_consolidated
+#: model:ir.model,name:account_invoice_consolidated.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: account_invoice_consolidated
+#: model:ir.model,name:account_invoice_consolidated.model_account_move_line
+msgid "Journal Item"
+msgstr "Item do Diário"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated____last_update
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_payment____last_update
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__write_uid
+msgid "Last Updated by"
+msgstr "Ultima atualização por"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__write_date
+msgid "Last Updated on"
+msgstr "Ultima Atualização em"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Anexo Principal"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro na Entrega da Mensagem"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_ids
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Misc"
+msgstr "Diversos"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Prazo Limite da Minha Atividade"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "NA"
+msgstr "ND"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Prazo Para a Próxima Atividade"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumo da Próxima Atividade"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo da Próxima Atividade"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/tests/test_consolidated_invoices.py:0
+#, fuzzy, python-format
+msgid "No Chart of Account Template has been defined !"
+msgstr "Nenhum modelo de gráfico de conta foi definido !"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de Ações"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de Erros"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensagens que requerem uma ação"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensagens com erro de entrega"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensagens não lidas"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Number:"
+msgstr "Número:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Origin:"
+msgstr "Origem:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "P.O. Number:"
+msgstr "Número do P.O.:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__partner_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_search
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Payable To:"
+msgstr "Pagável"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__payment_ids
+msgid "Payment"
+msgstr "Pagamento"
+
+#. module: account_invoice_consolidated
+#: model:ir.model,name:account_invoice_consolidated.model_account_payment
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.account_invoice_consolidated_view_form
+msgid "Payments"
+msgstr "Pagamentos"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Price:"
+msgstr "Preço:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid ""
+"Prices reflect a 3% cash discount for payment by cash, Wire, ACH, Debit ACH, "
+"or Check."
+msgstr ""
+"Os preços refletem um desconto de 3% cash para pagamento à vista, Fio, ACH, "
+"Débito ACH ou Check."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Quantity:"
+msgstr "Quantidade:"
+
+#. module: account_invoice_consolidated
+#: model:ir.actions.act_window,name:account_invoice_consolidated.action_account_consolidated_invoice_payment
+msgid "Register Payment"
+msgstr "Registrar Pagamento"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__activity_user_id
+msgid "Responsible User"
+msgstr "Usuário Responsável"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro no envio de SMS"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Sign up to receive your statements via email."
+msgstr "Inscreva-se para receber suas declarações por e-mail."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Site Address:"
+msgstr "Endereço do site:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__state
+msgid "State"
+msgstr "Estado"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status baseado em atividades\n"
+"Vencida: Data de vencimento já passou\n"
+"Hoje: Data da atividade é hoje\n"
+"Planejada: Atividade futura."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Status:"
+msgstr "Status:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Subtotal:"
+msgstr "Subtotal:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Tax:"
+msgstr "Imposto:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Terms:"
+msgstr "Termos:"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.inherit_res_company_form
+#, fuzzy
+msgid "To be Shown on Consolidated Invoice Report"
+msgstr "A ser mostrado no relatório de faturas consolidadas"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+msgid "Total:"
+msgstr "Total:"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de atividade de exceção registrada."
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Unit of Measure:"
+msgstr "Unidade de Medida"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_unread
+msgid "Unread Messages"
+msgstr "Mensagens Não Lidas"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de Mensagens não Lidas"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Untaxed Amount:"
+msgstr "Valor sem Impostos"
+
+#. module: account_invoice_consolidated
+#: model_terms:ir.ui.view,arch_db:account_invoice_consolidated.report_template_consolidated_inv
+#, fuzzy
+msgid "Visit us on the web – www.pavlovmedia.com"
+msgstr "Visite-nos na web – www.pavlovmedia.com"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,field_description:account_invoice_consolidated.field_account_invoice_consolidated__website_message_ids
+msgid "Website Messages"
+msgstr "Mensagens do Site"
+
+#. module: account_invoice_consolidated
+#: model:ir.model.fields,help:account_invoice_consolidated.field_account_invoice_consolidated__website_message_ids
+msgid "Website communication history"
+msgstr "Histórico de comunicação do site"
+
+#. module: account_invoice_consolidated
+#: code:addons/account_invoice_consolidated/models/account_invoice_consolidated.py:0
+#, fuzzy, python-format
+msgid "You cannot delete a finished consolidated invoice."
+msgstr "Você não pode excluir uma fatura consolidada finalizada."
